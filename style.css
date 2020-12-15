@@ -54,6 +54,7 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+
 }
 
 .bg-center,
@@ -362,21 +363,27 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-ul{
-    display: flex;
-    justify-content: center;
-    margin-left:-5vw;
+
+footer .container{
+    width: 100%;
+    height:auto;
+    text-align: center;
+    
+}
+
+footer ul{
+    display:flex;
+    justify-content: space-evenly;
+    margin-left: -30px;
+    
     
 }
 
 ul .i-so{
     list-style-type: none;
-  
-    
-   
-    
+ 
 }
-
+ 
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -492,6 +499,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    
 }
 
 .icon-lg {
@@ -671,6 +679,7 @@ a {
 
 .container {
     max-width: 1000px;
+  
 }
 
 .hero-bloc-text {
@@ -723,8 +732,12 @@ p {
     visibility: hidden;
     
 }
-.social fa{
-    font-size: small;
+.social .icon-md{
+    font-size:large;
+   
+    
+
+    
 }
 
 h2 {
@@ -769,6 +782,7 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+   
 }
 
 .avatar {
@@ -857,6 +871,7 @@ h4 {
    
     color: red;
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1058,6 +1073,10 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .col-sm-6 img{
+        display: inline;
+        justify-content: center;
     }
 }
 
