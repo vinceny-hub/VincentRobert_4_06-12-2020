@@ -561,11 +561,12 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
+    
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
+    margin-left:-25px ;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -573,6 +574,7 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
+    left: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
@@ -634,12 +636,12 @@ a[data-lightbox]:hover img {
 .prev-lightbox {
     font-size: 20px;
     color: rgba(255, 255, 255, .9);
-    background: rgba(0, 0, 0, .5);
+    background: rgba(161, 161, 161, 0.527);
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
     z-index: 1;
-    opacity: 0.4;
+    opacity: 0.7;
 }
 
 .next-lightbox {
@@ -674,7 +676,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -714,9 +716,18 @@ p {
     font-family: "Open Sans";
 }
 
-.cta-hero {
+#cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #000000!important;
+    text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#cta-hero2 {
+    margin-top: 22px;
+    color: #000000!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -732,6 +743,11 @@ p {
     visibility: hidden;
     
 }
+.social .a-social{
+    font-size: x-small;
+    
+}
+
 .social .icon-md{
     font-size:large;
    
@@ -771,8 +787,11 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
+.black {
+    color: #000000!important;
+    font-size: 12px;
+    font-weight: bold;
+
 }
 
 .portfolio-thumb {
@@ -819,7 +838,10 @@ h4 {
 }
 #text-white{
     font-size: medium;
+    color: black;
+
 }
+
 
 .btn-atomic-tangerine {
     background: #F3976C;
