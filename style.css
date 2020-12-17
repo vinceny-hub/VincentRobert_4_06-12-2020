@@ -750,7 +750,7 @@ a .a-social{
     
 }
 .social p{
-    opacity:1;
+    margin-left: -10000px;
 }
 
 
