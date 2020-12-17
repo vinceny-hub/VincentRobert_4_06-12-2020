@@ -739,15 +739,18 @@ p {
     margin: auto auto auto auto;
 
 }
-.social h5{
+/*.social h5{
     visibility: hidden;
     
-}
+}*/
 a .a-social{
-   
+
   font-size: 7px;
   
     
+}
+.social p{
+    opacity: 0;
 }
 
 
