@@ -7,15 +7,37 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+ul .nav-item{
+    
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+nav .navbar{
+    background-color: #FFFFFF;
+    width: 100vw;
+    padding-right:45px;
+}
+
+button{
+    
+    margin-left: -10vw;
+    
+    
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
-}
+    }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    
 }
 
 #page-loading-blocs-notifaction {
@@ -318,6 +340,7 @@ a:hover {
 }
 
 .navbar .nav {
+    
     padding-top: 2px;
     margin-right: -16px;
     float: right;
@@ -332,6 +355,7 @@ a:hover {
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
+    
 }
 
 .nav > li a:hover,
@@ -388,10 +412,20 @@ ul .i-so{
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        width: 100%;
+        left: 57%;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
+
+    
+/*
+    .mr-auto{
+        margin-left:30%;
+        
+    }
+*/
+  
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -733,6 +767,16 @@ p {
     font-size: 16px;
     font-weight: 700;
 }
+#cta-hero:hover {
+    scale:1.05;
+    color: #ffffff!important;
+    
+}
+#cta-hero2:hover {
+    scale: 1.05;
+    color: #ffffff!important;
+    
+}
 
 .social {
     max-width: 400px;
@@ -926,6 +970,7 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+   
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -938,6 +983,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+   
 }
 
 @media (max-width: 991px) {
@@ -1014,6 +1060,29 @@ h4 {
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
+   
+    ul .nav-item{
+        background-color: rgb(200, 200, 200);
+        
+    }
+
+    /*nav .navbar{
+        background-color: #FFFFFF;
+        width: 100vw;
+        padding-right:7vw;
+    }*/
+
+    /*.nav-item{
+    width: 100vw;
+    margin-right: -100px;
+    }*/
+
+    /*button{
+        margin-left:90%;
+       
+    }*/
+
+
     .dropdown .dropdown a .caret {
         float: none;
         margin: 5px 0 0 10px!important;
@@ -1053,6 +1122,8 @@ h4 {
         float: left;
         margin-left: 10px;
     }
+
+    
     .bloc {
         padding-left: 0;
         padding-right: 0;
