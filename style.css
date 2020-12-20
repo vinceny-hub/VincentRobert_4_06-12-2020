@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    
     }
     html {
         margin: 0;
@@ -18,25 +19,48 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.navbar-header{
+    width: 100vw;
+}
+
 
 ul .nav-item{
     
     background-color: rgb(255, 255, 255);
-
+   
 }
 
 
 nav .navbar{
     background-color: #FFFFFF;
-    width: 100vw;
-    padding-right:45px;
+    
+    
 }
 
+
 button{
+    border: 0.1vw solid black;
+    border-radius:10px;
+    margin-left: -0vw;
     
-    margin-left: -10vw;
-    
-    
+   
+}
+
+.black-text{
+    color: black;
+}
+.text-center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+address{
+    color: black;
+    font-weight:bold;
 }
 
 a,
@@ -329,6 +353,7 @@ a:hover {
 
 .navbar-brand {
     height: auto;
+    margin-left: -2%;
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
@@ -433,18 +458,25 @@ ul .i-so{
             margin-left: 50%;
             
         }*/
-        
+       
     .site-navigation {
+      
         position: absolute;
-        top: 50%;
-        width: 100%;
-        left: 55%;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
+        right:0vw;
+        
     }
 
-    /*
+    .site-navigation li{
+      
+        padding-left: 2vw;
+        
+    }
 
+    
+    
+
+    
+/*
     .mr-auto{
         margin-left:30%;
         
@@ -647,7 +679,9 @@ a[data-lightbox]:hover img {
 #lightbox-modal {
     display: flex;
     align-items: center;
+    
 }
+
 
 #lightbox-modal .modal-dialog {
     width: 90%;
@@ -715,6 +749,7 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .modal-body {
     padding-bottom: 45px;
+    
 }
 
 .snapshot-lb .lightbox-caption {
@@ -975,10 +1010,10 @@ h4 {
 
 
 @media (max-width: 1024px) {
-    .bloc {
+   /* .bloc {
         padding-left: 20px;
         padding-right: 20px;
-    }
+    }*/
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
@@ -997,6 +1032,8 @@ h4 {
     }
    
 }
+
+
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
@@ -1087,7 +1124,9 @@ h4 {
     }
    
     ul .nav-item{
-        background-color: rgb(200, 200, 200);
+        background-color: rgb(223, 223, 223);
+        border-top: 0.1vw solid #F3976C;
+        
         
     }
 
@@ -1134,7 +1173,62 @@ h4 {
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
+        
     }
+
+    .checkbox-size{
+        
+        width: 30px;
+        height: 30px;
+        
+    }
+
+    
+
+    
+
+    
+
+    /*
+
+
+    .navbar-collapse li{
+        
+        animation: slidein alternate;
+        animation-duration: 0.7s;
+        animation-direction: unset;
+        
+    }
+
+     @keyframes slidein{
+        
+            from {
+              margin-top:-10vw;
+              
+            }
+          
+            to {
+              margin-top:0vw;
+             
+            }
+          
+    }
+
+    */
+
+
+    .collapsing {
+        -webkit-transition: height .5s ease;
+        -o-transition: height .5s ease;
+        transition: height .5s ease;
+        }
+
+    header{
+        margin-top: -3vw;
+        margin-bottom:-0vw;
+    }
+    
+
     .navbar-brand img {
         max-height: 40px;
         width: auto;
@@ -1142,6 +1236,7 @@ h4 {
     .nav-invert .navbar-header {
         float: none;
         width: 100%;
+        
     }
     .nav-invert .navbar-toggle {
         float: left;
@@ -1219,4 +1314,29 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+@media (max-width: 376px) {
+    
+       button{
+           margin-top:-0vw;
+           margin-left:0vw;
+           border: 0.1vw solid black;
+           border-radius:10px;
+           
+       }
+        
+    }
+   /* @media (max-width: 349px) {
+    
+        button{
+            margin-top: -3vw;
+            margin-left:auto;
+        }/*
+         
+     }
+
+
+    /* page contact */
+address a{
+    font-weight:900;
 }

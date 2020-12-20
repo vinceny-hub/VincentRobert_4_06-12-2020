@@ -287,6 +287,7 @@ label {
 
 button {
   border-radius: 0;
+  
 }
 
 button:focus {
@@ -3058,18 +3059,23 @@ input[type="button"].btn-block {
   width: 100%;
 }
 
-.fade {
-  transition: opacity 0.15s linear;
-}
+
 
 @media (prefers-reduced-motion: reduce) {
   .fade {
-    transition: none;
+    transition: opacity 0.15s ease-in-out;
+    transition-property: opacity;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    
   }
+  
 }
 
 .fade:not(.show) {
   opacity: 0;
+  padding-right: 0px;
 }
 
 .collapse:not(.show) {
@@ -4284,8 +4290,8 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
+  /*border: 0px solid transparent;
+  border-radius: 0.25rem;*/
  
   ;
 }
@@ -5781,6 +5787,7 @@ a.close.disabled {
 
 .modal-open {
   overflow: hidden;
+  
 }
 
 .modal-open .modal {
@@ -5824,6 +5831,7 @@ a.close.disabled {
 .modal.show .modal-dialog {
   -webkit-transform: none;
   transform: none;
+  
 }
 
 .modal-dialog-scrollable {
@@ -5845,6 +5853,8 @@ a.close.disabled {
 
 .modal-dialog-scrollable .modal-body {
   overflow-y: auto;
+  
+
 }
 
 .modal-dialog-centered {
@@ -5937,8 +5947,31 @@ a.close.disabled {
   position: relative;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 1rem;
-}
+  padding: 3rem;
+
+  animation: slidein alternate;
+  animation-duration: 2s;
+  animation-direction: unset;
+        
+    }
+
+     @keyframes slidein{
+        
+            from {
+              margin-top:-50vw;
+              
+            }
+          
+            to {
+              margin-top:0vw;
+             
+            }
+          
+    }
+
+
+
+
 
 .modal-footer {
   display: -ms-flexbox;
@@ -5960,14 +5993,14 @@ a.close.disabled {
 .modal-footer > :not(:last-child) {
   margin-right: .25rem;
 }
-
+/*
 .modal-scrollbar-measure {
   position: absolute;
   top: -9999px;
   width: 50px;
   height: 50px;
   overflow: scroll;
-}
+}*/
 
 @media (min-width: 576px) {
   .modal-dialog {
