@@ -75,6 +75,7 @@ a:hover {
     
 }
 
+
 img {
     max-width: 100%; /* or max-width: 100%; */
     height: auto;
@@ -1210,11 +1211,7 @@ h4 {
         
     }
 
-    
-
-    
-
-    
+      
 
     /*
 
@@ -1330,6 +1327,8 @@ h4 {
     }
 }
 
+
+
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
@@ -1341,7 +1340,21 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+    .portfolio-thumb{
+        width:75%;
+        height:auto;
+    }
 }
+
+@media (max-width: 575px) {
+    
+    .portfolio-thumb{
+        width: 60%;
+        height:auto;
+    }
+}
+
 @media (max-width: 376px) {
     
        button{
