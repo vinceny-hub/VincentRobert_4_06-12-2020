@@ -1,0 +1,219 @@
+@media(max-width:767px) {
+    .page-container {
+        position: relative;
+        overflow-x: hidden;
+    }
+
+    #disqus_thread,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        padding-right: 10px!important;
+        padding-left: 10px!important;
+    }
+
+    .b-parallax {
+        background-attachment: scroll;
+    }
+
+    .navbar .nav {
+        float: none!important;
+        padding-top: 0;
+        border-top: 1px solid rgba(0,0,0,.2);
+    }
+
+    .navbar.row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .site-navigation {
+        position: inherit;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+
+    .nav > li {
+        width: 100%;
+        margin-top: 0;
+        padding-left: 15px;
+        border-bottom: 1px solid rgba(0,0,0,.1);
+        text-align: left;
+        background: rgba(0,0,0,.05);
+    }
+
+    .nav > li:hover {
+        background: rgba(0,0,0,.08);
+    }
+
+    ul .nav-item {
+        border-top: .1vw solid #f3976c;
+        background-color: #dfdfdf;
+    }
+
+    .dropdown .dropdown a .caret {
+        float: none;
+        margin: 5px 0 0 10px!important;
+        border: 4px solid #000;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+
+    #hero-bloc .navbar .nav {
+        background: rgba(0,0,0,.8);
+    }
+
+    #hero-bloc .navbar .nav a {
+        color: rgba(255,255,255,.6);
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero-nav {
+        right: -1px;
+        left: -1px;
+    }
+
+    .navbar-collapse {
+        padding: 0;
+        overflow-x: hidden;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .checkbox-size {
+        width: 30px;
+        height: 30px;
+    }
+
+    .collapsing {
+        -webkit-transition: height .5s ease;
+        -o-transition: height .5s ease;
+        transition: height .5s ease;
+    }
+
+    header {
+        margin-top: -3vw;
+        margin-bottom: 0;
+    }
+
+    .navbar-brand img {
+        width: auto;
+        height: 40px;
+    }
+
+    .nav-invert .navbar-header {
+        float: none;
+        width: 100%;
+    }
+
+    .nav-invert .navbar-toggle {
+        float: left;
+        margin-left: 10px;
+    }
+
+    .bloc {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .bloc-lg,
+    .bloc-xl,
+    .bloc-xxl {
+        padding: 40px 0;
+    }
+
+    .bloc-md,
+    .bloc-sm {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .bloc-fill-screen .fill-bloc-bottom-edge,
+    .bloc-fill-screen .fill-bloc-top-edge,
+    .bloc-tile-2 .container,
+    .bloc-tile-3 .container,
+    .bloc-tile-4 .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .a-block {
+        padding: 0 10px;
+    }
+
+    .btn-dwn {
+        display: none;
+    }
+
+    .voffset {
+        margin-top: 5px;
+    }
+
+    .voffset-md {
+        margin-top: 20px;
+    }
+
+    .voffset-lg {
+        margin-top: 30px;
+    }
+
+    form {
+        padding: 5px;
+    }
+
+    .close-lightbox {
+        display: inline-block;
+    }
+
+    .blocsapp-device-iphone5 {
+        width: 216px;
+        height: 425px;
+        padding-top: 60px;
+        background-size: 216px 425px;
+    }
+
+    .blocsapp-device-iphone5 img {
+        width: 180px;
+        height: 320px;
+    }
+
+    .col-sm-6 img {
+        display: inline;
+        justify-content: center;
+    }
+}
+
+@media(max-width:400px) {
+    .bloc {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media(max-width:767px) {
+    .bloc-mob-center-text {
+        text-align: center;
+        
+    }
+    .bg-banniere {
+        background-image: url(img/la-chouette-agence-banniere2.jpg);
+    }
+}
+
+@media(max-width:376px) {
+    button {
+        margin-top: 0;
+        margin-left: 0;
+        border: .1vw solid #000;
+        border-radius: 10px;
+    }
+}
