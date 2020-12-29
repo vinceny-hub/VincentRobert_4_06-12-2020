@@ -1,0 +1,15 @@
+@media(max-width:1024px) {
+    .bloc-tile-2.full-width-bloc .container,
+    .bloc-tile-3.full-width-bloc .container,
+    .bloc-tile-4.full-width-bloc .container,
+    .bloc.full-width-bloc {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) {
+    .b-parallax {
+        background-attachment: scroll;
+    }
+}
