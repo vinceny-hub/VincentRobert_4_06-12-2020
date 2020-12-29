@@ -432,7 +432,7 @@ footer ul {
 ul .i-so {
     list-style-type: none;
 }
-/*
+
 @media(min-width:768px) {
     * {
         margin: 0;
@@ -486,7 +486,7 @@ ul .i-so {
         margin: 10px auto 0;
     }
 }
-*/
+
 .nav > li > .dropdown a {
     display: block;
     padding: 14px 15px;
@@ -972,13 +972,13 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url(img/image-de-presentation4.jpg);
+    background-image: url(img/image-de-presentation.jpg);
 }
 
 .titre-contact {
     color: red;
-}*/
-/*
+}
+
 @media(max-width:1024px) {
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
@@ -987,8 +987,8 @@ h4 {
         padding-right: 0;
         padding-left: 0;
     }
-}*/
-/*
+}
+
 @media(max-width:992px) and (min-width:768px) {
     .navbar .nav {
         max-width: 80%;
@@ -997,20 +997,20 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%;
     }
-}*/
-/*
+}
+
 @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
-}*/
-/*
+}
+
 @media only screen and (min-device-width:1024px) and (max-device-width:1366px) and (-webkit-min-device-pixel-ratio:1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
-}*/
-/*
+}
+
 @media(max-width:991px) {
     .container {
         width: 100%;
@@ -1043,8 +1043,8 @@ h4 {
         padding-right: constant(safe-area-inset-right);
         padding-left: constant(safe-area-inset-left);
     }
-}*/
-/*
+}
+
 @media(max-width:767px) {
     .page-container {
         position: relative;
@@ -1237,26 +1237,21 @@ h4 {
         display: inline;
         justify-content: center;
     }
-}*/
-/*
+}
+
 @media(max-width:400px) {
     .bloc {
         padding-right: 0;
         padding-left: 0;
     }
-    
-}*/
-/*
+}
+
 @media(max-width:767px) {
     .bloc-mob-center-text {
         text-align: center;
-        
     }
-    .bg-banniere {
-        background-image: url(img/la-chouette-agence-banniere2.jpg);
-    }
-}*/
-/*
+}
+
 @media(max-width:376px) {
     button {
         margin-top: 0;
@@ -1264,7 +1259,7 @@ h4 {
         border: .1vw solid #000;
         border-radius: 10px;
     }
-}*/
+}
 
 address a {
     font-weight: 900;
