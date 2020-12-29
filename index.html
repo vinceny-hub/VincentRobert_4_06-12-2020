@@ -292,10 +292,24 @@
 
 <!-- Principal conteneur END -->
 <script src="./js/jquery-3.5.1.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script src="./js/blocs.min.js"></script>
-<script src="./js/jquery.touchSwipe.min.js"></script>
-<script src="./js/gmaps.min.js"></script> 
+<script src="./js/bootstrap.min.js" ></script>
+<script src="./js/blocs.min.js" defer ></script>
+<script src="./js/jquery.touchSwipe.min.js" defer ></script>
+<script src="./js/gmaps.min.js" defer ></script> 
+
+<!--<script>
+    var isIE = !!window.MSInputMethodContext && !!document.documentMode;
+    var isFirefox = navigator.userAgent.toLowerCase().indexOf("firefox") > -1;
+
+    if (isIE || isFirefox) {
+        var pageStylesheet = document.createElement("link");
+        pageStylesheet.rel = "stylesheet";
+        pageStylesheet.type = "text/css";
+        pageStylesheet.href = "/path/to/styles.css";
+        document.head.appendChild(pageStylesheet);
+    }
+</script>-->
+
 
 </body>
 </html>
